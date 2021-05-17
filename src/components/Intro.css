@@ -1,0 +1,36 @@
+.intro {
+    padding: 4rem;
+    background: #fff;
+    border: 5px solid red;
+  }
+
+  
+  .intro-container{
+      display: flex;
+      align-items: center;
+      max-width: 1120px;
+      width: 90%;
+      margin: 0 auto;
+      border: 5px solid purple;
+      
+    }
+    
+    .intro-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid red;
+    
+    }
+
+ .intro-wrapper >  .profile{
+        width: 100px;
+        height: 100px;
+    }    
+.intro-wrapper > p {
+    flex: 2 0 0%
+}
+
+
+
+

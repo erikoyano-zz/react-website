@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {BiWorld} from 'react-icons/bi';
+import {HiOutlineLightBulb} from 'react-icons/hi';
 import {GoX, GoThreeBars} from 'react-icons/go';
 import {Button} from './Button';
 import  './Navbar.css';
@@ -32,7 +32,7 @@ function Navbar() {
        <nav className="navbar">
            <div className="navbar-container">
                <Link to="/" className="navbar-logo">
-                   TRVL <BiWorld/> 
+                    Inspire Mom <HiOutlineLightBulb/> 
                </Link>
                <div className="menu-icon" onClick={handleClick}>
                    {click ? <GoX />: <GoThreeBars />}
@@ -40,20 +40,20 @@ function Navbar() {
                <ul className = {click ? 'nav-menu active': 'nav-menu'}>
                    <li className="nav-item">
                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                        Home
+                        ホーム
                        </Link>
                     </li>
                     <li className="nav-item">
                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                        Services
+                        インスパイア・ママとは？
                        </Link>
-                   </li>
-                   <li className="products">
+                    </li>
+                   <li className="nav-item">
                        <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                        Services
+                        ブログ
                        </Link>
                    </li>
-                   <li className="products">
+                   <li>
                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                         Sign Up
                        </Link>
