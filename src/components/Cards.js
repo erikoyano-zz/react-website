@@ -1,11 +1,14 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css'
+import Fade from 'react-reveal/Fade'
+
 
 function Cards() {
     return (
-        <div className='cards'>
-            <h1>Check out these EPIC destinations!</h1>
+      <Fade duration={3000}>
+        <div className='cards' id='blog'>
+            <h1>ブログ</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -43,6 +46,7 @@ function Cards() {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 
