@@ -8,6 +8,8 @@ import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 import Aos from "aos";
 import "aos/dist/aos";
+import 'antd/dist/antd.css';
+
 
 function App() {
   useEffect(() => {

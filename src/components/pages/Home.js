@@ -4,6 +4,7 @@ import Cards from '../Cards'
 import HeroSection from '../HeroSection'
 import Footer from '../Footer'
 import Intro from '../Intro'
+import Contact from '../Contact'
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
         <HeroSection />
         <Intro />  
         <Cards />
+        <Contact />
         <Footer />
         </>
     )

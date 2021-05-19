@@ -1,0 +1,35 @@
+.contact {
+  background: #fff;
+  padding: 4rem;
+}
+
+.contactBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.contactBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
+.titleHolder {
+  text-align: center;
+}
+
+.input .btn {
+  border: 3px solid black;
+  text-align: center;
+}
+
+.ant-form-item-control-input-content {
+  text-align: center;
+}
+
+#normal_login {
+  max-width: 70%;
+  align-items: center;
+}
+
+.block-contactBlock > .container-fulid {
+  border: 4px solid red;
+}
