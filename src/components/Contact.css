@@ -6,6 +6,7 @@
 .contactBlock .ant-form {
   max-width: 640px;
   margin: auto;
+  text-align: center;
 }
 
 .contactBlock .ant-form textarea {
@@ -28,8 +29,4 @@
 #normal_login {
   max-width: 70%;
   align-items: center;
-}
-
-.block-contactBlock > .container-fulid {
-  border: 4px solid red;
 }
